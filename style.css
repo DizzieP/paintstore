@@ -1,5 +1,10 @@
 /* Universal Styles */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
     font-size: 16px;
   }
@@ -39,6 +44,7 @@ html {
     align-items: center;
     padding: .5rem 3.75rem;
     background-color: #ff8000;
+    border-bottom: 3px solid white;
   }
   
   header .logo-small {
